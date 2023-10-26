@@ -7,6 +7,8 @@ class BatteryLevel {
   MethodChannel('org.rudderstack.dev/battery');
 
 
+
+
 // Get battery level.
   static Future<String> getBatteryLevel() async {
     String batteryLevel;
