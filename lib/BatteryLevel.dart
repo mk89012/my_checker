@@ -8,6 +8,7 @@ class BatteryLevel {
 
 
 
+
 // Get battery level.
   static Future<String> getBatteryLevel() async {
     String batteryLevel;
